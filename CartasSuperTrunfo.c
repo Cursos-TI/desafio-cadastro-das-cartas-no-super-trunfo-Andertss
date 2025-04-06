@@ -16,9 +16,9 @@ int main() {
     float pib;
     int pontosTuristicos;
 
-    printf("carta 1: ");
-    scanf("%c", carta);
-
+    printf("carta:");
+    scanf("%c", &carta);
+    
     printf("Digite a inical do estado: ");
     scanf("%c", &estado);
 
