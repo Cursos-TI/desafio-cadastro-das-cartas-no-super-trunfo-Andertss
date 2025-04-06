@@ -6,7 +6,8 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    char carta = Carta1;
+    
+    char carta = 1;
     char estado;
     char codigo;
     char nomeCidade[50];
@@ -15,7 +16,10 @@ int main() {
     float pib;
     int pontosTuristicos;
 
-    prirntf("Digite a inical do estado: ");
+    printf("carta 1: ");
+    scanf("%c", carta);
+
+    printf("Digite a inical do estado: ");
     scanf("%c", &estado);
 
     printf("Digite o código: ");
@@ -36,7 +40,6 @@ int main() {
     printf("Digite a quantidade de pontos turisticos: ");
     scanf("%d", &pontosTuristicos);
 
-    printf("Estado", carta);
 
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
