@@ -76,7 +76,7 @@ int main(){
     scanf("%f", &pib);
 
 
-    //e
+    //aqui são exibidos os resultados das informações de segunda, tambem fornacidas pelo usuário.
     printf("Carta: %s\n", carta);
     printf("Estado: %c\n", estado);
     printf("codigo: %c%s\n", estado,codigo);
