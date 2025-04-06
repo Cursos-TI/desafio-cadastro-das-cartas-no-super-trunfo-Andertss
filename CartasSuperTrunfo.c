@@ -5,40 +5,36 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 
-int main() {
-    
-    char carta = 1;
-    char estado;
-    char codigo;
-    char nomeCidade[50];
-    int populacao;
-    float area;
-    float pib;
-    int pontosTuristicos;
+int main(){
 
-    printf("carta:");
-    scanf("%c", &carta);
-    
-    printf("Digite a inical do estado: ");
-    scanf("%c", &estado);
+    char carta, estado, codigo;
+    int populacao, turismo;
+    float area, pib;
+    char nomecidade[50];
 
-    printf("Digite o código: ");
-    scanf("%c", &codigo);
+    printf("Carta: \n");
+    scanf("%d", &carta);
 
-    printf("Digite o nome da cidade: ");
-    scanf("%c", &nomeCidade);
+    printf("Digite inicial do estado: \n");
+    scanf("%d", &estado);
 
-    printf("Digite a quantidade de habitantes: ");
+    printf("Digite o cóldigo: \n");
+    scanf("%d", &codigo);
+
+    printf("Digite sua altura: \n");
     scanf("%d", &populacao);
 
-    printf("Digite a área da cidade: ");
-    scanf("%f", &area);
+    printf("Digite sua altura: \n");
+    scanf("%d", &turismo);
 
-    printf("Digite o PIB: ");
+    printf("Digite da cidade: \n");
+    scanf("%s", &nomecidade);
+
+    printf("Digite sua matrícula: \n");
     scanf("%f", &pib);
 
-    printf("Digite a quantidade de pontos turisticos: ");
-    scanf("%d", &pontosTuristicos);
+    printf("Digite sua matrícula: \n");
+    scanf("%f", &area);
 
 
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
